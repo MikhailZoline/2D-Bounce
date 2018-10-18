@@ -144,7 +144,6 @@
 				7423F4CD1F128B7A00BB7972 /* Sources */,
 				7423F4CE1F128B7A00BB7972 /* Frameworks */,
 				7423F4CF1F128B7A00BB7972 /* Resources */,
-				745725DF1F30CADE004CFD5D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -204,6 +203,7 @@
 					7423F4D01F128B7A00BB7972 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = G2S724D2ZT;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					7423F50B1F193D4B00BB7972 = {
@@ -264,22 +264,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		745725DF1F30CADE004CFD5D /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7423F4CD1F128B7A00BB7972 /* Sources */ = {
@@ -451,7 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MZ.DemoCanfield;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -466,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MZ.DemoCanfield;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

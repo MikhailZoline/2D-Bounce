@@ -61,12 +61,11 @@ class ScreenSaverController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Customize your drawing layer for drawing the circle to pick the size of the particle
         pLayer.strokeColor = UIColor .magenta.cgColor
         pLayer.lineWidth = 2.0
         pLayer.lineDashPattern = [2,3]
-        pLayer.fillRule = kCAFillRuleEvenOdd
+        pLayer.fillRule = CAShapeLayerFillRule.evenOdd
         pLayer.fillColor = UIColor.init(white: 1.0, alpha: 0.0).cgColor
         
         // Add drawing layer to main view
@@ -100,8 +99,7 @@ class ScreenSaverController: UIViewController {
     }
     
     //
-    internal func animation(){
-        
+@objc   internal func animation(){
         // Move A and B according to their velocities
         pA?.step()
         pB?.step()
