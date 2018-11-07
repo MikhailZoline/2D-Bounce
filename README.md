@@ -1,6 +1,5 @@
 # 2D Bounce
-At first it was a screen saver project with 'fake', that is to say a very simplistic
-behavior of the collisions between particles and bounds. 
+At first it was a demo project of 2D collisions between particles and bounds.
 The both particles were spawned with their raduis and the initial directions directly in code.
 Subsequently I decided to implement the possibility to initialize the particles with
 gesture of two fingers in order to vary the size of the particles. 
