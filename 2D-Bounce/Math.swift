@@ -83,7 +83,7 @@ internal var intersectWithSegment : (_ v:CGPoint, _ w: CGPoint, _ p:CGPoint, _ r
 }
 
 // check if one of the edges of the rectangle intersects the circle
-// and invert velocity accordinly
+// and invert velocity accordingly
 internal var intersectWithFrame: (_ frame: CGRect, _ circle: CollisionParticle ) -> Bool = {
     frame, circle ->Bool in
     //Get frame coordinates : A top left, B top right, C bottom right, D bottom left
