@@ -15,3 +15,4 @@ Once the particle is initialized it could be dragged with one finger.
 It is necessary to do the same for the second particle.
 Finally the direction of movement is given with launching gesture with one finger.
 Also, double-tap may be used to pause or resume animation. 
+The main loop of collision detection is scheduled at an arbitrary rate of 30 frames per second to be visibly acceptable. When the particles collide I launch a keyframe animation of the color change of the particles. 
