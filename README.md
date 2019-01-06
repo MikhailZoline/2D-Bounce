@@ -1,4 +1,12 @@
-# 2D-Bounce
+
+<h1 align="center">
+<b>2D-Bounce</b>
+   <br><img width="275" height="500" src="https://user-images.githubusercontent.com/16679908/50730814-41af1980-1124-11e9-80c3-f2d936a6d198.gif">
+</h1>
+
+## An example of phisics and animation in swift
+Basically, the demo mimics the behavior of spriteKit or cocos2d, without using any native or third party frameworks.
+
 At first it was a demo project of 2D collisions between particles and bounds.
 Both particles were spawned with their radius and the initial directions directly in code.
 Subsequently, I decided to implement the possibility to initialize the particles with a gesture of two fingers in order to vary the size of the particles. 
