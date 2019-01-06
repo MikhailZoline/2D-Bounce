@@ -5,7 +5,7 @@
 </h1>
 
 ## An example of phisics and animation in swift
-Basically, the demo mimics the behavior of spriteKit or cocos2d, without using any native or third party frameworks.
+Basically, the demo mimics the behavior of spriteKit or cocos2d, without help of third-party libraries
 
 At first it was a demo project of 2D collisions between particles and bounds.
 Both particles were spawned with their radius and the initial directions directly in code.
