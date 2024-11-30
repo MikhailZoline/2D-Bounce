@@ -4,7 +4,7 @@
    <br><img width="275" height="500" src="https://user-images.githubusercontent.com/16679908/50730814-41af1980-1124-11e9-80c3-f2d936a6d198.gif">
 </h1>
 
-## An example of phisics and animation in swift
+## An example of physics and animation in swift
 Basically, the demo mimics the behavior of spriteKit or cocos2d, without help of third-party libraries
 
 At first it was a demo project of 2D collisions between particles and bounds.
